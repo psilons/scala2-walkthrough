@@ -5,11 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="691e0784-5e04-4a55-a8e9-2cda07ad7dde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S1_BuiltInDataTypes.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S2_Operators.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S3_FlowControls.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S4_Collections.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sbt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S5_Classes/AbstractClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S5_Classes/CaseClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S5_Classes/ExtendedClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S5_Classes/ImplicitClasses.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S5_Classes/PrimaryConstructor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S5_Classes/SimpleClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S5_Classes/TraitClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S6_Functions/Currying.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S6_Functions/Functional.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S6_Functions/PartialAppliedFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S6_Functions/package.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S7_TypeVariances/Covariants.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S7_TypeVariances/Typelevel.scala _ Of variance and functors (2021-09-09 4_49_18 PM).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S7_TypeVariances/generics - Why doesn't the example compile, aka how does (co-, contra-, and in-) variance work_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S8_Implicits/ImplicitClasses.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S8_Implicits/ImplicitParameters.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S8_Implicits/Implicits in Scala (2.12.2). Scala’s implicits.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S8_Implicits/Scala Implicits Part 1 - DZone Web Dev.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S9_TypeClasses/TypeClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S9_TypeClasses/Typeclass in Scala Libraries and the Compiler (Part 2) - DZone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S9_TypeClasses/Typeclass in Scala Libraries and the Compiler - DZone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala2-walkthrough.iws" beforeDir="false" afterPath="$PROJECT_DIR$/scala2-walkthrough.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S1_BuiltInDataTypes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S1_BuiltInDataTypes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S4_Collections.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S4_Collections.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/Scala_REPL.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/Scala_REPL.sc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +59,11 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="scala2-walkthrough" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="scala2-walkthrough" type="f1a62948:ProjectNode" />
+                <item name="scala2-walkthrough" type="2d1252cf:ModuleNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -45,11 +75,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Scala Worksheet" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -72,8 +111,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.46090156" />
-    <property name="settings.editor.selected.configurable" value="Scala Compiler" />
+    <property name="settings.editor.selected.configurable" value="profiler.jvm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\00dev\scala\scala2-walkthrough\src\main\scala\org\mytest\scala\walkthrough\S9_TypeClasses" />
+      <recent name="D:\00dev\scala\scala2-walkthrough\src\main\scala\org\mytest\scala\walkthrough\S8_Implicits" />
+      <recent name="D:\00dev\scala\scala2-walkthrough\src\main\scala\org\mytest\scala\walkthrough\variances" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.S4_Collections">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -86,13 +132,55 @@
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
-    <configuration name="S3_FlowControls" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.mytest.scala.walkthrough.S3_FlowControls" />
+    <configuration name="ClassTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.mytest.scala.walkthrough.S5_Classes.ClassTest" />
       <module name="scala2-walkthrough" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.mytest.scala.walkthrough.*" />
+          <option name="PATTERN" value="org.mytest.scala.walkthrough.S5_Classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Currying" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.mytest.scala.walkthrough.S6_Functions.Currying" />
+      <module name="scala2-walkthrough" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mytest.scala.walkthrough.S6_Functions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartialAppliedFunction" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.mytest.scala.walkthrough.S6_Functions.PartialAppliedFunction" />
+      <module name="scala2-walkthrough" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mytest.scala.walkthrough.S6_Functions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="S1_BuiltInDataTypes" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.mytest.scala.walkthrough.S1_BuiltInDataTypes" />
+      <module name="scala2-walkthrough" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mytest.scala.walkthrough.S9_TypeClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,20 +215,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scala REPL" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="scala2-walkthrough" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="javaOptions" value="-Djline.terminal=NONE" />
-      <option name="myConsoleArgs" value="" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -153,8 +227,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.S4_Collections" />
-        <item itemvalue="Scala REPL.Scala REPL" />
-        <item itemvalue="Application.S3_FlowControls" />
+        <item itemvalue="Application.S1_BuiltInDataTypes" />
+        <item itemvalue="Application.Currying" />
+        <item itemvalue="Application.PartialAppliedFunction" />
+        <item itemvalue="Application.ClassTest" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +243,10 @@
       <option name="presentableId" value="Default" />
       <updated>1630603467049</updated>
       <workItem from="1630603471588" duration="29269000" />
+      <workItem from="1630726654595" duration="31554000" />
+      <workItem from="1631120447377" duration="13467000" />
+      <workItem from="1631482853110" duration="3980000" />
+      <workItem from="1631594685390" duration="5590000" />
     </task>
     <servers />
   </component>

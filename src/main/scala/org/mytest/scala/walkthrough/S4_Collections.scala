@@ -14,6 +14,7 @@ object S4_Collections
 
     // We look at arrays, lists, sets, and dictionaries
     // Mutable and Immutable
+    // Parameterized types
 
     // 1. Arrays | ArrayBuffer - index based, size fixed
     var fruits: Array[String] = Array("apple", "orange", "banana")
@@ -35,6 +36,8 @@ object S4_Collections
         matrix(i)(j) = i * j
     for (i <- 0 until 3; j <- 0 until 3)
         println(s"matrix[$i, $j] = ${matrix(i)(j)}")
+
+    // tuples
 
     // 2. Lists - operate at ends, flexible size
     // https://www.waitingforcode.com/scala-collections/collections-complexity-scala-immutable-collections/read
@@ -63,7 +66,14 @@ object S4_Collections
     println(stringSet)
 
     // 4. maps
+    import scala.collection._
+    val myMap: Map[Int, Int] = Map((10 -> 5000), (20 -> 5000), (25 -> 7000), (40 -> 13000))
+    val res = myMap.filter(k => k._1 > 30).map { case (key, value) => key * 10 -> value }
+    println(res)
+    val res1 = res.map { case (key, value) => key * 100}
+    println(res1)
     // similar to set
+
 
     // 5. stacks
     val stack: mutable.Stack[String] = mutable.Stack("Chicago", "New York")
@@ -79,3 +89,7 @@ object S4_Collections
     queue.enqueue("Boston") // insert end
     println(queue)
 }
+
+// Sorting
+// Ordering vs Ordered
+// http://like-a-boss.net/2012/07/30/ordering-and-ordered-in-scala.html

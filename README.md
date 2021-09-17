@@ -1,34 +1,12 @@
 # scala2-walkthrough
+
 Scala docs: https://www.scala-lang.org/api/current/index.html#scala.math.Ordered
 
-## sbt Build tool
-Download from: https://www.scala-sbt.org/index.html
-Unzip the zip file and add the path to the PATH variable.
-
-to get sbt version
-```
-sbt -v
-```
-to get Scala version (Scala version is controlled by the build file)
-```
-sbt scalaVersion
-```
-or
-```
-sbt "print scalaVersion"
-```
-To get Scala console
-```
-sbt console
-```
-(type in :q to quit). 
+[sbt Introduction](sbt.md)
 
 IntelliJ has Scala WorkSheet and Scala REPL
 
 ![repl](docs/scala_repl.png)
-
-For other usage, see
-```sbt help``` or see the [sbt doc](https://www.scala-sbt.org/1.x/docs/)
 
 ## Built-in Data Types
 [Code Examples](src/main/scala/org/mytest/scala/walkthrough/S1_BuiltInDataTypes.scala)
@@ -83,7 +61,37 @@ https://baihuqian.github.io/tags/#Scala
 ## Collections
 https://www.jesperdj.com/2015/11/22/the-magic-of-for-yield-with-scala-collections/
 
+## Dependency Graph
+
+https://www.baeldung.com/scala/sbt-dependency-tree
+
+
+## Profiling
+https://www.jetbrains.com/help/idea/java-flight-recorder.html#jfr-configurations
+https://blog.jetbrains.com/idea/2020/03/profiling-tools-and-intellij-idea-ultimate/
+https://bell-sw.com/announcements/2020/07/22/Hunting-down-code-hotspots-with-JDK-Flight-Recorder/
+https://www.brendangregg.com/flamegraphs.html
+https://medium.com/@muuki88/follow-the-stacktraces-jvm-performance-profiling-3c371d323e5f
+https://users.scala-lang.org/t/how-to-profile-my-code/4752/9
+https://stackoverflow.com/questions/9160001/how-to-profile-methods-in-scala
+
+https://dev.to/frosnerd/microbenchmarking-your-scala-code-4885
+https://github.com/scalameter/scalameter
+
+https://medium.com/virtuslab/revisiting-scala-native-performance-67029089f241
+book: Modern Systems Programming with Scala Native
+
+https://medium.com/swlh/performance-test-on-an-api-using-gatling-85319ee32faa
+https://alexandreesl.com/2020/02/12/gatling-making-performance-tests-with-scala/
+
+https://scalac.io/blog/performance-testing/
+
+
+
+
 ## References
+https://www.baeldung.com/scala/category/scala-basics
+
 Images and links are from Amazon.
 
 PiS4E: [Programming in Scala](https://www.amazon.com/Programming-Scala-Martin-Odersky/dp/098153161X) 

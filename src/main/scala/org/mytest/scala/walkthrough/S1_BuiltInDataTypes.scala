@@ -2,6 +2,7 @@ package org.mytest.scala.walkthrough
 
 import scala.language.implicitConversions
 
+// PiS4E Chapter 5
 object S1_BuiltInDataTypes // defined in scala package
 {
     def main(args: Array[String]): Unit = {} // every app needs a main()
@@ -75,7 +76,12 @@ object S1_BuiltInDataTypes // defined in scala package
     // To cast between int and boolean
     // https://stackoverflow.com/questions/2633719/is-there-an-easy-way-to-convert-a-boolean-to-an-integer
     implicit def bool2int(b:Boolean): Int = if (b) 1 else 0
+    val a: Int = 1 + true
+    println(a)
+
+    println("abc".toString) // omit ()
 }
 
 // See https://docs.scala-lang.org/tour/unified-types.html for type hierarchy
 
+// https://www.steinbit.org/programming/profiling-performance-in-scala
