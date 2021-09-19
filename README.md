@@ -1,18 +1,85 @@
 # scala2-walkthrough
 
-Scala docs: https://www.scala-lang.org/api/current/index.html#scala.math.Ordered
-
-[sbt Introduction](sbt.md)
+[Scala docs](https://docs.scala-lang.org/api/all.html)
 
 IntelliJ has Scala WorkSheet and Scala REPL
 
 ![repl](docs/scala_repl.png)
 
+## Minimal Requirements
+
+### sbt
+[sbt Introduction](sbt.md)
+
+### Unit Tests and Test Coverage
+[Unit Tests and Test Coverage](test-coverage.md)
+
+### Logging
+https://github.com/lightbend/scala-logging
+
+### Profilers
+
+IntelliJ has several profilers, https://blog.jetbrains.com/idea/2020/03/profiling-tools-and-intellij-idea-ultimate/
+
+sbt has https://github.com/sbt/sbt-jmh.
+
+https://github.com/jvm-profiling-tools/async-profiler/issues/381
+
+Flamegraph:
+- https://github.com/brendangregg/FlameGraph
+- https://queue.acm.org/detail.cfm?id=2927301
+- https://hacked.work/blog/flame-graphs-and-scala/
+- https://johnysswlab.com/flamegraphs-understand-where-your-program-is-spending-time/
+
+
+Performance testing tools:
+- [scalameter](https://github.com/scalameter/scalameter). A good example is
+  https://dev.to/awwsmm/benchmarking-scala-with-scalameter-pt-2-scala-dcp-004-4n93
+- [gatling](https://github.com/gatling/gatling)
+
+### UML and Class Diagrams
+There is no good tool currently. We need a tool to show all relations
+- classes
+- hierarchy
+- associations and dependencies
+
+IntelliJ does a good job for Java, but not scala. Other tools, such as
+[sbt-class-diagram](https://github.com/xuwei-k/sbt-class-diagram)
+and 
+[scaladiagrams](https://github.com/mikeyhu/scaladiagrams),
+do not show all relations.
+
+### Dependency Matrix
+Dependency matrix - to analyze module dependencies
+
+Started from [JDepend](https://github.com/nidi3/jdepend), now is 
+[code-assert](https://github.com/nidi3/code-assert). IntelliJ has same
+functionality here:
+
+![dep_mtrx](dependency_matrix.png)
+
+Here is an internal 
+[explanation](http://blog.rcard.in/programming/oop/software-engineering/2017/04/10/dependency-dot.html)
+plus usage: 
+https://dzone.com/articles/dependency-structure-matrix-for-software-architect
+
+https://www.vojtechruzicka.com/idea-analyzing-dependencies/
+
+https://www.jetbrains.com/help/idea/dependencies-analysis.html#analyze-dependencies
+
+https://www.jetbrains.com/help/idea/dsm-analysis.html
+
+
 ## Built-in Data Types
 [Code Examples](src/main/scala/org/mytest/scala/walkthrough/S1_BuiltInDataTypes.scala)
 explains the details.
 
-Here is the entire Scala Type system
+https://www.47deg.com/blog/adventures-with-scala-collections/
+
+https://stackoverflow.com/questions/10866639/difference-between-a-seq-and-a-list-in-scala
+
+![traversable](traversable.png)
+Here is the entire Scala Type system(from https://docs.scala-lang.org/tour/unified-types.html)
 
 ![built-in](docs/unified-types-diagram.svg)
 

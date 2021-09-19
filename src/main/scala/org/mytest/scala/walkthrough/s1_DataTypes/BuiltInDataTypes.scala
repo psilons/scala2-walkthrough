@@ -1,11 +1,12 @@
-package org.mytest.scala.walkthrough
+package org.mytest.scala.walkthrough.s1_DataTypes
 
 import scala.language.implicitConversions
 
 // PiS4E Chapter 5
-object S1_BuiltInDataTypes // defined in scala package
+object BuiltInDataTypes // defined in scala package
 {
-    def main(args: Array[String]): Unit = {} // every app needs a main()
+    def main(args: Array[String]): Unit =
+    {} // every app needs a main()
 
     val i = 1 // since no type declared, default to Int
     println(i)
@@ -29,7 +30,7 @@ object S1_BuiltInDataTypes // defined in scala package
     val ft: Float = 1 // 32-bit
     val dt: Double = 1 // 64-bit
     // Another way
-    val annotatedLong: Long = 1:Long // valid but IntelliJ doesn't know it or not recommend it.
+    val annotatedLong: Long = 1: Long // valid but IntelliJ doesn't know it or not recommend it.
 
     val bit = BigInt(1234567890) // in scala.math, the argument can take various types
     val bit1 = BigInt("12345678901234567890")
@@ -43,7 +44,8 @@ object S1_BuiltInDataTypes // defined in scala package
     val doubleLiteral = 1d // int to a double
 
     val escapes = "\n\r\t" // line returns and tab
-    val multilines: String = """There are
+    val multilines: String =
+        """There are
           |3 lines
           |here""".stripMargin // this is to strip front space, marked by bars
     println(multilines)
@@ -75,13 +77,10 @@ object S1_BuiltInDataTypes // defined in scala package
 
     // To cast between int and boolean
     // https://stackoverflow.com/questions/2633719/is-there-an-easy-way-to-convert-a-boolean-to-an-integer
-    implicit def bool2int(b:Boolean): Int = if (b) 1 else 0
+    implicit def bool2int(b: Boolean): Int = if(b) 1 else 0
+
     val a: Int = 1 + true
     println(a)
 
-    println("abc".toString) // omit ()
+    println("123".toInt) // omit () on the method toInt()
 }
-
-// See https://docs.scala-lang.org/tour/unified-types.html for type hierarchy
-
-// https://www.steinbit.org/programming/profiling-performance-in-scala

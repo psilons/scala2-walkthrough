@@ -57,7 +57,11 @@ The standard task list is also in the sbt view.
 
 use compile and package for build and creating the jar.
 
-Use JVM_OPTS or SBT_OPTS to set environment.
+Use JVM_OPTS or SBT_OPTS to set environment. For example
+```
+export SBT_OPTS="-XX:+CMSClassUnloadingEnabled -Xmx2G"
+```
+
 
 Standard Scala tasks are listed in the sbt view, such as clean, compile, package.
 For uber jar, use assembly(https://github.com/sbt/sbt-assembly)
@@ -88,6 +92,19 @@ or [combined](https://www.scala-sbt.org/1.x/docs/Combined+Pages.html)
 To build executables with all dependencies:
 https://alvinalexander.com/scala/sbt-how-build-single-executable-jar-file-assembly/
 
+The full version of scala used is
+```
+export full_version=$(sbt --error 'print scalaVersion' | tail -1 | xargs)
+echo $full_version
+2.13.6
+```
+The binary version(major + minor) is
+```
+export binary_version=${full_version%.*}
+echo $binary_version
+2.13
+```
+
 ## Dependency Management
 
 https://www.scala-sbt.org/1.x/docs/Library-Dependencies.html
@@ -97,3 +114,18 @@ https://www.scala-sbt.org/0.13/docs/Library-Management.html#Download+Sources
 https://www.baeldung.com/scala/percent-symbols-build-sbt
 
 https://www.scala-sbt.org/1.x/docs/Resolvers.html
+
+Add this to the project/plugins.sbt
+```
+addDependencyTreePlugin
+```
+Then we could run this from command line:
+```
+sbt dependencyTree
+
+[info] org.mytest.scala.walkthrough:scala2-walkthrough_2.13:1.0-SNAPSHOT [S]
+[info]   +-com.typesafe.scala-logging:scala-logging_2.13:3.9.4 [S]
+[info]     +-org.scala-lang:scala-reflect:2.13.6 [S]
+[info]     +-org.slf4j:slf4j-api:1.7.30
+```
+More can be found in its github: https://github.com/sbt/sbt-dependency-graph.

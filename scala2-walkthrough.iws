@@ -5,36 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="691e0784-5e04-4a55-a8e9-2cda07ad7dde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sbt.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S5_Classes/AbstractClass.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S5_Classes/CaseClass.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S5_Classes/ExtendedClass.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S5_Classes/ImplicitClasses.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S5_Classes/PrimaryConstructor.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S5_Classes/SimpleClass.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S5_Classes/TraitClass.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S6_Functions/Currying.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S6_Functions/Functional.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S6_Functions/PartialAppliedFunction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S6_Functions/package.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S7_TypeVariances/Covariants.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S7_TypeVariances/Typelevel.scala _ Of variance and functors (2021-09-09 4_49_18 PM).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S7_TypeVariances/generics - Why doesn't the example compile, aka how does (co-, contra-, and in-) variance work_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S8_Implicits/ImplicitClasses.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S8_Implicits/ImplicitParameters.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S8_Implicits/Implicits in Scala (2.12.2). Scala’s implicits.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S8_Implicits/Scala Implicits Part 1 - DZone Web Dev.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S9_TypeClasses/TypeClass.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S9_TypeClasses/Typeclass in Scala Libraries and the Compiler (Part 2) - DZone.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S9_TypeClasses/Typeclass in Scala Libraries and the Compiler - DZone.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/plugins.sbt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/s1_DataTypes/BuiltInDataTypes.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/s1_DataTypes/NumbersUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/utils/PerfUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/org/mytest/scala/walkthrough/s1_DataTypes/NumbersUtilTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/org/mytest/scala/walkthrough/utils/PerfUtilsTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-coverage.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/scala2-walkthrough-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scala2-walkthrough-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/scala2-walkthrough.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scala2-walkthrough.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$445db89686af8472ebfc$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$445db89686af8472ebfc.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$445db89686af8472ebfc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sbt.md" beforeDir="false" afterPath="$PROJECT_DIR$/sbt.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala2-walkthrough.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/scala2-walkthrough.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scala2-walkthrough.iws" beforeDir="false" afterPath="$PROJECT_DIR$/scala2-walkthrough.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S1_BuiltInDataTypes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S1_BuiltInDataTypes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S1_BuiltInDataTypes.scala" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S4_Collections.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S4_Collections.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/Scala_REPL.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/Scala_REPL.sc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +53,12 @@
                 <item name="scala2-walkthrough" type="f1a62948:ProjectNode" />
                 <item name="scala2-walkthrough" type="2d1252cf:ModuleNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="scala2-walkthrough" type="f1a62948:ProjectNode" />
+                <item name="scala2-walkthrough" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -76,6 +71,7 @@
       <list>
         <option value="Scala Worksheet" />
         <option value="Package Object" />
+        <option value="Scala Object" />
       </list>
     </option>
   </component>
@@ -121,7 +117,7 @@
       <recent name="D:\00dev\scala\scala2-walkthrough\src\main\scala\org\mytest\scala\walkthrough\variances" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.S4_Collections">
+  <component name="RunManager" selected="ScalaTest.PerfUtilsTest.should print out dur">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -132,76 +128,6 @@
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
-    <configuration name="ClassTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.mytest.scala.walkthrough.S5_Classes.ClassTest" />
-      <module name="scala2-walkthrough" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mytest.scala.walkthrough.S5_Classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Currying" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.mytest.scala.walkthrough.S6_Functions.Currying" />
-      <module name="scala2-walkthrough" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mytest.scala.walkthrough.S6_Functions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PartialAppliedFunction" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.mytest.scala.walkthrough.S6_Functions.PartialAppliedFunction" />
-      <module name="scala2-walkthrough" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mytest.scala.walkthrough.S6_Functions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="S1_BuiltInDataTypes" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.mytest.scala.walkthrough.S1_BuiltInDataTypes" />
-      <module name="scala2-walkthrough" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mytest.scala.walkthrough.S9_TypeClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="S4_Collections" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.mytest.scala.walkthrough.S4_Collections" />
-      <module name="scala2-walkthrough" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mytest.scala.walkthrough.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -211,6 +137,80 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumbersUtilTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="scala2-walkthrough" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Class" />
+      <option name="testClassPath" value="org.mytest.scala.walkthrough.s1_DataTypes.NumbersUtilTest" />
+      <option name="workingDirectory" value="D:\00dev\scala\scala2-walkthrough" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumbersUtilTest.count primes should return numbers of primes strictly smaller than give" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="scala2-walkthrough" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="testClassPath" value="org.mytest.scala.walkthrough.s1_DataTypes.NumbersUtilTest" />
+      <option name="testName" value="count primes should return numbers of primes strictly smaller than give" />
+      <option name="workingDirectory" value="D:\00dev\scala\scala2-walkthrough" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumbersUtilTest.should return false for non prime numbers" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="scala2-walkthrough" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="testClassPath" value="org.mytest.scala.walkthrough.s1_DataTypes.NumbersUtilTest" />
+      <option name="testName" value="should return false for non prime numbers" />
+      <option name="workingDirectory" value="D:\00dev\scala\scala2-walkthrough" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumbersUtilTest.should return true for prime numbers" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="scala2-walkthrough" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="testClassPath" value="org.mytest.scala.walkthrough.s1_DataTypes.NumbersUtilTest" />
+      <option name="testName" value="should return true for prime numbers" />
+      <option name="workingDirectory" value="D:\00dev\scala\scala2-walkthrough" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PerfUtilsTest.should print out dur" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="scala2-walkthrough" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="testClassPath" value="org.mytest.scala.walkthrough.utils.PerfUtilsTest" />
+      <option name="testName" value="should print out dur" />
+      <option name="workingDirectory" value="D:\00dev\scala\scala2-walkthrough" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -226,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.S4_Collections" />
-        <item itemvalue="Application.S1_BuiltInDataTypes" />
-        <item itemvalue="Application.Currying" />
-        <item itemvalue="Application.PartialAppliedFunction" />
-        <item itemvalue="Application.ClassTest" />
+        <item itemvalue="ScalaTest.PerfUtilsTest.should print out dur" />
+        <item itemvalue="ScalaTest.NumbersUtilTest.count primes should return numbers of primes strictly smaller than give" />
+        <item itemvalue="ScalaTest.NumbersUtilTest" />
+        <item itemvalue="ScalaTest.NumbersUtilTest.should return false for non prime numbers" />
+        <item itemvalue="ScalaTest.NumbersUtilTest.should return true for prime numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +246,7 @@
       <workItem from="1630726654595" duration="31554000" />
       <workItem from="1631120447377" duration="13467000" />
       <workItem from="1631482853110" duration="3980000" />
-      <workItem from="1631594685390" duration="5590000" />
+      <workItem from="1631594685390" duration="35260000" />
     </task>
     <servers />
   </component>
@@ -255,5 +255,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/utils/PerfUtils.scala</url>
+          <line>13</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

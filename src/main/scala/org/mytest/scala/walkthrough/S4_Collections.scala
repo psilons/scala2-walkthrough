@@ -45,6 +45,8 @@ object S4_Collections
     // https://alvinalexander.com/scala/how-to-create-mutable-list-in-scala-listbuffer-cookbook/
     val nums1: List[Int] = List(1, 2, 3)
     val nums2: Seq[Int] = 1 :: (2 :: (3 :: Nil)) // preappend is O(1)
+    val nums3: List[Int] = (1 to 10).toList // 1, 2, 3, 4, ... , 10
+    val sliced = nums3.drop(2).grouped(3).map(_.head).toList // 3, 6, 9. tail is slow, so use head
     // ArrayBuffer is a mutable list
     // ListBuffer operates both ends with O(1)
     // https://www.scala-lang.org/api/current/scala/collection/mutable/ListBuffer.html
