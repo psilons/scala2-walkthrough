@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="691e0784-5e04-4a55-a8e9-2cda07ad7dde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/s3_FlowControl/BreakPerformance.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/s3_FlowControl/S3_FlowControls.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/s4_Collections/ListOfBooleans.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/s4_Collections/S4_Collections.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/utils/ContextManager.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/org/mytest/scala/walkthrough/s4_Collections/ListOfBooleansTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/org/mytest/scala/walkthrough/utils/ContextManagerTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/scala2-walkthrough-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scala2-walkthrough-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/scala2-walkthrough.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scala2-walkthrough.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala2-walkthrough.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/scala2-walkthrough.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scala2-walkthrough.iws" beforeDir="false" afterPath="$PROJECT_DIR$/scala2-walkthrough.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S3_FlowControls.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S4_Collections.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S5_Classes/ExtendedClass.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S5_Classes/ExtendedClass.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/utils/PerfUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/utils/PerfUtils.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-coverage.md" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/s4_Collections/ListOfBooleans.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/s4_Collections/ListOfBooleans.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/org/mytest/scala/walkthrough/s4_Collections/ListOfBooleansTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/org/mytest/scala/walkthrough/s4_Collections/ListOfBooleansTest.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +102,7 @@
       <recent name="D:\00dev\scala\scala2-walkthrough\src\main\scala\org\mytest\scala\walkthrough\variances" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.ListOfBooleansTest">
+  <component name="RunManager" selected="ScalaTest.ListOfBooleansTest.comp matchAny should be faster, but not">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -154,7 +140,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListOfBooleansTest.3rd approach test should work" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="ListOfBooleansTest.5th approach test should be faster" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="scala2-walkthrough" />
       <option name="allowRunningInParallel" value="false" />
       <option name="projectPathOnTarget" />
@@ -163,22 +149,7 @@
       </option>
       <option name="testKind" value="Test name" />
       <option name="testClassPath" value="org.mytest.scala.walkthrough.s4_Collections.ListOfBooleansTest" />
-      <option name="testName" value="3rd approach test should work" />
-      <option name="workingDirectory" value="D:\00dev\scala\scala2-walkthrough" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListOfBooleansTest.4th approach test should work" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="scala2-walkthrough" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Test name" />
-      <option name="testClassPath" value="org.mytest.scala.walkthrough.s4_Collections.ListOfBooleansTest" />
-      <option name="testName" value="4th approach test should work" />
+      <option name="testName" value="5th approach test should be faster" />
       <option name="workingDirectory" value="D:\00dev\scala\scala2-walkthrough" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -199,7 +170,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListOfBooleansTest.second approach test should work" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="ListOfBooleansTest.comp matchAny should be faster, but not" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="scala2-walkthrough" />
       <option name="allowRunningInParallel" value="false" />
       <option name="projectPathOnTarget" />
@@ -208,7 +179,22 @@
       </option>
       <option name="testKind" value="Test name" />
       <option name="testClassPath" value="org.mytest.scala.walkthrough.s4_Collections.ListOfBooleansTest" />
-      <option name="testName" value="second approach test should work" />
+      <option name="testName" value="comp matchAny should be faster, but not" />
+      <option name="workingDirectory" value="D:\00dev\scala\scala2-walkthrough" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListOfBooleansTest.comp should be faster" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="scala2-walkthrough" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="testClassPath" value="org.mytest.scala.walkthrough.s4_Collections.ListOfBooleansTest" />
+      <option name="testName" value="comp should be faster" />
       <option name="workingDirectory" value="D:\00dev\scala\scala2-walkthrough" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -225,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="ScalaTest.ListOfBooleansTest" />
+        <item itemvalue="ScalaTest.ListOfBooleansTest.comp matchAny should be faster, but not" />
         <item itemvalue="ScalaTest.ListOfBooleansTest.5th approach test should work" />
-        <item itemvalue="ScalaTest.ListOfBooleansTest.4th approach test should work" />
-        <item itemvalue="ScalaTest.ListOfBooleansTest.3rd approach test should work" />
-        <item itemvalue="ScalaTest.ListOfBooleansTest.second approach test should work" />
+        <item itemvalue="ScalaTest.ListOfBooleansTest" />
+        <item itemvalue="ScalaTest.ListOfBooleansTest.comp should be faster" />
+        <item itemvalue="ScalaTest.ListOfBooleansTest.5th approach test should be faster" />
       </list>
     </recent_temporary>
   </component>
@@ -246,8 +232,16 @@
       <workItem from="1631120447377" duration="13467000" />
       <workItem from="1631482853110" duration="3980000" />
       <workItem from="1631594685390" duration="50595000" />
-      <workItem from="1632186701628" duration="10313000" />
+      <workItem from="1632186701628" duration="13022000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1632275795098</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632275795098</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +249,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

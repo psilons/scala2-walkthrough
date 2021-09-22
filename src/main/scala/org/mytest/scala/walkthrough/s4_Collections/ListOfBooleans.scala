@@ -51,33 +51,33 @@ object ListOfBooleans
 }
 
 object ListOfBooleans1 {
-    def matchAll(booleans: List[Boolean]): Boolean = {
+    def matchAll(booleans: Seq[Boolean]): Boolean = {
         booleans.forall(identity)
     }
 
-    def matchAny(booleans: List[Boolean]): Boolean = {
+    def matchAny(booleans: Seq[Boolean]): Boolean = {
         booleans.exists(identity)
     }
 }
 
 object ListOfBooleans2 {
-    def matchAll(booleans: List[Boolean]): Boolean = {
+    def matchAll(booleans: Seq[Boolean]): Boolean = {
         booleans.fold(true)((x, y) => x && y)
     }
 
-    def matchAny(booleans: List[Boolean]): Boolean = {
+    def matchAny(booleans: Seq[Boolean]): Boolean = {
         booleans.fold(false)((x, y) => x || y)
     }
 }
 
 object ListOfBooleans3 {
-    def matchAll(booleans: List[Boolean]): Boolean = {
+    def matchAll(booleans: Seq[Boolean]): Boolean = {
         var res = true
         booleans.foreach(b => res &&= b)
         res
     }
 
-    def matchAny(booleans: List[Boolean]): Boolean = {
+    def matchAny(booleans: Seq[Boolean]): Boolean = {
         var res = false
         booleans.foreach(b => res ||= b)
         res
@@ -85,7 +85,7 @@ object ListOfBooleans3 {
 }
 
 object ListOfBooleans4 {
-    def matchAll(booleans: List[Boolean]): Boolean = {
+    def matchAll(booleans: Seq[Boolean]): Boolean = {
         // early stop - no diff between && and ||, only operators are different
         // for and, if res = false at some point, break out
         var earlyStop = false
@@ -100,7 +100,7 @@ object ListOfBooleans4 {
         res
     }
 
-    def matchAny(booleans: List[Boolean]): Boolean = {
+    def matchAny(booleans: Seq[Boolean]): Boolean = {
         // for or, if res = true at some point, break out
         var earlyStop = false
         var res = false
@@ -114,16 +114,16 @@ object ListOfBooleans4 {
 }
 
 object ListOfBooleans5 {
-    def matchAll(booleans: List[Boolean]): Boolean = {
+    def matchAll(booleans: Seq[Boolean]): Boolean = {
         comb(booleans, op = true)
     }
 
-    def matchAny(booleans: List[Boolean]): Boolean = {
+    def matchAny(booleans: Seq[Boolean]): Boolean = {
         comb(booleans, op = false)
     }
 
     // op = true for and, false for or
-    def comb(booleans: List[Boolean], op: Boolean): Boolean = {
+    def comb(booleans: Seq[Boolean], op: Boolean): Boolean = {
         var earlyStop = false
         var res = op
         booleans.view.takeWhile(_ => !earlyStop).foreach(b => {
@@ -132,7 +132,12 @@ object ListOfBooleans5 {
             // for and, stop at first false
             // for or,  stop at first true
             // hardcoded true is really res's initial value, which flags for and or or operation
-            earlyStop = earlyStop || op != res
+            // This works, but hard to understand
+            //earlyStop = earlyStop || op != res
+
+            // this is easier to understand
+            // for and, find first false; for or find first true
+            earlyStop = if (op) earlyStop == res else earlyStop != res
         })
         res
     }

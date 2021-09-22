@@ -112,4 +112,147 @@ class ListOfBooleansTest extends AnyFlatSpec
         assert(ListOfBooleans5.matchAny(l7))
         assert(!ListOfBooleans5.matchAny(l8))
     }
+
+    // performance testing
+    val size = 1000000
+    val iters = 100
+    val fullTrue: Seq[Boolean] = List.fill(size)(true)
+    val fullFalse: Seq[Boolean] = List.fill(size)(false)
+
+    val firstFalse: Seq[Boolean] = List(false) ++ List.fill(size-1)(true)
+    val lastFalse: Seq[Boolean] = List.fill(size-1)(true) ++ List(false)
+
+    val firstTrue:Seq[Boolean] = List(true) ++ List.fill(size-1)(false)
+    val lastTrue:Seq[Boolean] = List.fill(size-1)(false) ++ List(true)
+
+    "comp matchAll" should "be faster, but not" in {
+        var start = 0L
+        var total = 0d
+
+        start = System.nanoTime()
+        ListOfBooleans1.matchAll(fullTrue)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans1.matchAll(fullTrue): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans5.matchAll(fullTrue)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans5.matchAll(fullTrue): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans1.matchAll(fullFalse)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans1.matchAll(fullFalse): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans5.matchAll(fullFalse)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans5.matchAll(fullFalse): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans1.matchAll(firstFalse)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans1.matchAll(firstFalse): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans5.matchAll(firstFalse)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans5.matchAll(firstFalse): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans1.matchAll(lastFalse)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans1.matchAll(lastFalse): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans5.matchAll(lastFalse)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans5.matchAll(lastFalse): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans1.matchAll(firstTrue)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans1.matchAll(firstTrue): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans5.matchAll(firstTrue)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans5.matchAll(firstTrue): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans1.matchAll(lastTrue)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans1.matchAll(lastTrue): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans5.matchAll(lastTrue)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans5.matchAll(lastTrue): ${total} μs")
+    }
+
+    "comp matchAny" should "be faster, but not" in {
+        var start = 0L
+        var total = 0d
+
+        start = System.nanoTime()
+        ListOfBooleans1.matchAny(fullTrue)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans1.matchAny(fullTrue): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans5.matchAny(fullTrue)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans5.matchAny(fullTrue): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans1.matchAny(fullFalse)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans1.matchAny(fullFalse): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans5.matchAny(fullFalse)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans5.matchAny(fullFalse): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans1.matchAny(firstFalse)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans1.matchAny(firstFalse): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans5.matchAny(firstFalse)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans5.matchAny(firstFalse): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans1.matchAny(lastFalse)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans1.matchAny(lastFalse): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans5.matchAny(lastFalse)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans5.matchAny(lastFalse): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans1.matchAny(firstTrue)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans1.matchAny(firstTrue): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans5.matchAny(firstTrue)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans5.matchAny(firstTrue): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans1.matchAny(lastTrue)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans1.matchAny(lastTrue): ${total} μs")
+
+        start = System.nanoTime()
+        ListOfBooleans5.matchAny(lastTrue)
+        total = (System.nanoTime() - start) /10e3
+        println(s"ListOfBooleans5.matchAny(lastTrue): ${total} μs")
+
+    }
 }
