@@ -36,6 +36,9 @@ scala -cp scalatest-RELEASE.jar org.scalatest.run ExampleSpec
 ```
 (We can set up an Application in IntelliJ as well).
 
+## Mocking
+Check https://www.scalatest.org/plus/mockito
+
 ## Test Coverage
 IntelliJ has the test coverage built-in. sbt has a plugin 
 [sbt-scoverage](https://github.com/scoverage/sbt-scoverage) based on

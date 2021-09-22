@@ -1,10 +1,11 @@
-package org.mytest.scala.walkthrough
+package org.mytest.scala.walkthrough.s4_Collections
 
 import scala.collection.mutable
 
 object S4_Collections
 {
-    def main(args: Array[String]): Unit = {} // every app needs a main()
+    def main(args: Array[String]): Unit =
+    {} // every app needs a main()
 
     // the basic data structures needed
     // big picture of Scala collections
@@ -20,7 +21,9 @@ object S4_Collections
     var fruits: Array[String] = Array("apple", "orange", "banana")
     println(fruits.min)
     println(fruits.maxBy(_.length))
+
     import scala.util.Sorting.quickSort
+
     quickSort(fruits) // inplace sort
     println(fruits.mkString(", "))
 
@@ -30,11 +33,13 @@ object S4_Collections
     // https://alvinalexander.com/scala/how-sort-scala-sequences-seq-list-array-buffer-vector-ordering-ordered/
 
     // multi-dimensions
+
     import Array._
+
     var matrix: Array[Array[Int]] = ofDim[Int](3, 3)
-    for (i <- 0 until 3; j <- 0 until 3)
+    for(i <- 0 until 3; j <- 0 until 3)
         matrix(i)(j) = i * j
-    for (i <- 0 until 3; j <- 0 until 3)
+    for(i <- 0 until 3; j <- 0 until 3)
         println(s"matrix[$i, $j] = ${matrix(i)(j)}")
 
     // tuples
@@ -68,11 +73,15 @@ object S4_Collections
     println(stringSet)
 
     // 4. maps
+
     import scala.collection._
+
     val myMap: Map[Int, Int] = Map((10 -> 5000), (20 -> 5000), (25 -> 7000), (40 -> 13000))
-    val res = myMap.filter(k => k._1 > 30).map { case (key, value) => key * 10 -> value }
+    val res = myMap.filter(k => k._1 > 30).map
+    { case (key, value) => key * 10 -> value }
     println(res)
-    val res1 = res.map { case (key, value) => key * 100}
+    val res1 = res.map
+    { case (key, value) => key * 100 }
     println(res1)
     // similar to set
 
@@ -91,7 +100,3 @@ object S4_Collections
     queue.enqueue("Boston") // insert end
     println(queue)
 }
-
-// Sorting
-// Ordering vs Ordered
-// http://like-a-boss.net/2012/07/30/ordering-and-ordered-in-scala.html

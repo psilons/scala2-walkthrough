@@ -10,3 +10,7 @@ class ExtendedClass(a: String, b: Int) extends ParentClass(a, b)
 {
 
 }
+
+
+// https://stackoverflow.com/questions/22288496/return-this-in-a-covariant-trait-that-return-actual-type
+// to handle this as return

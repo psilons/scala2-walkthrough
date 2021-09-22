@@ -1,5 +1,10 @@
 # scala2-walkthrough
 
+Desired/First Impression:
+
+80% of coding should be done in 20% APIs
+Fast coding like Python
+
 [Scala docs](https://docs.scala-lang.org/api/all.html)
 
 IntelliJ has Scala WorkSheet and Scala REPL
