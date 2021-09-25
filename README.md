@@ -6,6 +6,7 @@ Desired/First Impression: not KISS
   My LeetCode Python solutions are <= 20 lines mostly.
 - With so many APIs, other tools such as IntelliJ is easy to be broken. Less used flexibility
   has virtually no value but confusion. We need an optimized version.
+- Feel like it's in Python's 2010s, need more enterprise level tools and efficiency.
 
 Wait until we get Spark.
 
