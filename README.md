@@ -2,9 +2,10 @@
 
 Desired/First Impression: not KISS
 - 80% of coding should be done in 20% APIs. With so many APIs, hard to know which one is faster.
-- Fast coding like Python: short circuit frequently used APIs. Python and C# syntax sugar.
-  My LeetCode solutions are <= 20 lines mostly.
-- With so many APIs, other tools such as IntelliJ is easy to be broken.
+- Fast coding like Python: short circuit frequently used APIs, like Python and C# syntax sugar.
+  My LeetCode Python solutions are <= 20 lines mostly.
+- With so many APIs, other tools such as IntelliJ is easy to be broken. Less used flexibility
+  has virtually no value but confusion. We need an optimized version.
 
 Wait until we get Spark.
 
@@ -24,6 +25,10 @@ IntelliJ has Scala WorkSheet and Scala REPL
 
 ### Logging
 https://github.com/lightbend/scala-logging
+
+http://software.clapper.org/grizzled-slf4j/index.html is a wrapper around slf4j.
+
+
 
 ### Profilers
 
