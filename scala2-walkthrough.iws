@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="691e0784-5e04-4a55-a8e9-2cda07ad7dde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/utils/LoggingTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/scala2-walkthrough.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scala2-walkthrough.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dependency_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/s1_datatypes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/s4_collections.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/s1_DataTypes/NumberTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/s1_DataTypes/StringTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/s4_Collections/ListTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/s4_Collections/MapTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala2-walkthrough.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/scala2-walkthrough.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/build.sbt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/scala_repl.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/scala_repl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sbt.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/sbt.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scala2-walkthrough.iws" beforeDir="false" afterPath="$PROJECT_DIR$/scala2-walkthrough.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S9_TypeClasses/Typeclass in Scala Libraries and the Compiler (Part 2) - DZone.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Typeclass in Scala Libraries and the Compiler (Part 2) - DZone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S9_TypeClasses/Typeclass in Scala Libraries and the Compiler - DZone.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Typeclass in Scala Libraries and the Compiler - DZone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-coverage.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/test-coverage.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/traversable.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/traversable.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,12 +111,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\00dev\scala\scala2-walkthrough\docs" />
       <recent name="D:\00dev\scala\scala2-walkthrough\src\main\scala\org\mytest\scala\walkthrough\S9_TypeClasses" />
       <recent name="D:\00dev\scala\scala2-walkthrough\src\main\scala\org\mytest\scala\walkthrough\S8_Implicits" />
       <recent name="D:\00dev\scala\scala2-walkthrough\src\main\scala\org\mytest\scala\walkthrough\variances" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoggingTest">
+  <component name="RunManager" selected="Application.ListTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -116,6 +128,20 @@
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
+    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.mytest.scala.walkthrough.s4_Collections.ListTest" />
+      <module name="scala2-walkthrough" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mytest.scala.walkthrough.s4_Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoggingTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="org.mytest.scala.walkthrough.utils.LoggingTest" />
       <module name="scala2-walkthrough" />
@@ -123,6 +149,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.mytest.scala.walkthrough.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.mytest.scala.walkthrough.s4_Collections.MapTest" />
+      <module name="scala2-walkthrough" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mytest.scala.walkthrough.s4_Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,36 +198,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListOfBooleansTest.5th approach test should work" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="scala2-walkthrough" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Test name" />
-      <option name="testClassPath" value="org.mytest.scala.walkthrough.s4_Collections.ListOfBooleansTest" />
-      <option name="testName" value="5th approach test should work" />
-      <option name="workingDirectory" value="D:\00dev\scala\scala2-walkthrough" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListOfBooleansTest.comp matchAny should be faster, but not" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="scala2-walkthrough" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Test name" />
-      <option name="testClassPath" value="org.mytest.scala.walkthrough.s4_Collections.ListOfBooleansTest" />
-      <option name="testName" value="comp matchAny should be faster, but not" />
-      <option name="workingDirectory" value="D:\00dev\scala\scala2-walkthrough" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PerfUtilsTest.timeit should print out duration" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="scala2-walkthrough" />
       <option name="allowRunningInParallel" value="false" />
@@ -214,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListTest" />
+        <item itemvalue="Application.MapTest" />
         <item itemvalue="Application.LoggingTest" />
         <item itemvalue="ScalaTest.PerfUtilsTest.timeit should print out duration" />
         <item itemvalue="ScalaTest.ContextManagerTest.should work" />
-        <item itemvalue="ScalaTest.ListOfBooleansTest.comp matchAny should be faster, but not" />
-        <item itemvalue="ScalaTest.ListOfBooleansTest.5th approach test should work" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +245,7 @@
       <workItem from="1631120447377" duration="13467000" />
       <workItem from="1631482853110" duration="3980000" />
       <workItem from="1631594685390" duration="50595000" />
-      <workItem from="1632186701628" duration="29521000" />
+      <workItem from="1632186701628" duration="35518000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1632275795098</created>
@@ -258,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632533278611</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="logging">
+      <created>1632543687599</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1632543687599</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +286,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="test performance between built in and manual cooked." />
     <MESSAGE value="python with" />
-    <option name="LAST_COMMIT_MESSAGE" value="python with" />
+    <MESSAGE value="logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="logging" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

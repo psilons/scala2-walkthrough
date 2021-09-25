@@ -15,9 +15,9 @@ Then refresh the project
 ![build](build.sbt.png)
 
 A sample unit test is 
-[NumbersUtilTest](src/test/scala/org/mytest/scala/walkthrough/s1_DataTypes/NumbersUtilTest.scala)
+[NumbersUtilTest](../src/test/scala/org/mytest/scala/walkthrough/s1_DataTypes/NumbersUtilTest.scala)
 for the class
-[NumberUtil](src/main/scala/org/mytest/scala/walkthrough/s1_DataTypes/NumbersUtil.scala).
+[NumberUtil](../src/main/scala/org/mytest/scala/walkthrough/s1_DataTypes/NumbersUtil.scala).
 
 First, make sure it runs in IDE. Then we can run from command line:
 ```
