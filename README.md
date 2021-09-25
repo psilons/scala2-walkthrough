@@ -1,9 +1,12 @@
 # scala2-walkthrough
 
-Desired/First Impression:
+Desired/First Impression: not KISS
+- 80% of coding should be done in 20% APIs. With so many APIs, hard to know which one is faster.
+- Fast coding like Python: short circuit frequently used APIs. Python and C# syntax sugar.
+  My LeetCode solutions are <= 20 lines mostly.
+- With so many APIs, other tools such as IntelliJ is easy to be broken.
 
-80% of coding should be done in 20% APIs
-Fast coding like Python
+Wait until we get Spark.
 
 [Scala docs](https://docs.scala-lang.org/api/all.html)
 
