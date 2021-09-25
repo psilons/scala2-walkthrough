@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="691e0784-5e04-4a55-a8e9-2cda07ad7dde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/dependency_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/s1_datatypes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/s4_collections.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/s1_DataTypes/NumberTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/s1_DataTypes/StringTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/s4_Collections/ListTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/s4_Collections/MapTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/build.sbt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency_matrix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/scala_repl.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/scala_repl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbt.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/sbt.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scala2-walkthrough.iws" beforeDir="false" afterPath="$PROJECT_DIR$/scala2-walkthrough.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S9_TypeClasses/Typeclass in Scala Libraries and the Compiler (Part 2) - DZone.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Typeclass in Scala Libraries and the Compiler (Part 2) - DZone.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/S9_TypeClasses/Typeclass in Scala Libraries and the Compiler - DZone.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Typeclass in Scala Libraries and the Compiler - DZone.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-coverage.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/test-coverage.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/traversable.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/traversable.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +229,8 @@
       <workItem from="1631120447377" duration="13467000" />
       <workItem from="1631482853110" duration="3980000" />
       <workItem from="1631594685390" duration="50595000" />
-      <workItem from="1632186701628" duration="35518000" />
+      <workItem from="1632186701628" duration="37006000" />
+      <workItem from="1632551001754" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1632275795098</created>
@@ -275,7 +260,35 @@
       <option name="project" value="LOCAL" />
       <updated>1632543687599</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="clean up, put in the right places">
+      <created>1632549710508</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1632549710508</updated>
+    </task>
+    <task id="LOCAL-00006" summary="clean up, put in the right places">
+      <created>1632549769807</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1632549769807</updated>
+    </task>
+    <task id="LOCAL-00007" summary="clean up, put in the right places">
+      <created>1632550520615</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1632550520615</updated>
+    </task>
+    <task id="LOCAL-00008" summary="clean up, put in the right places">
+      <created>1632550953191</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1632550953191</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,17 +300,7 @@
     <MESSAGE value="test performance between built in and manual cooked." />
     <MESSAGE value="python with" />
     <MESSAGE value="logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="logging" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/org/mytest/scala/walkthrough/utils/PerfUtils.scala</url>
-          <line>46</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="clean up, put in the right places" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean up, put in the right places" />
   </component>
 </project>
