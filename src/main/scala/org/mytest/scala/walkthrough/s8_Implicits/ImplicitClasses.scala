@@ -1,4 +1,4 @@
-package org.mytest.scala.walkthrough.S8_Implicits
+package org.mytest.scala.walkthrough.s8_Implicits
 
 // https://docs.scala-lang.org/overviews/core/implicit-classes.html
 // https://www.baeldung.com/scala/implicit-classes

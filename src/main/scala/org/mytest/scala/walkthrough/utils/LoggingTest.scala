@@ -4,7 +4,7 @@ import com.typesafe.scalalogging.LazyLogging
 
 class LoggingTest extends LazyLogging // or we could go with the normal way
 {
-    def testLogging() = {
+    def testLogging(): Unit = {
         val abc = 5
         logger.info("This is a message {}", abc)
     }

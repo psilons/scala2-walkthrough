@@ -1,4 +1,4 @@
-package org.mytest.scala.walkthrough.S5_Classes
+package org.mytest.scala.walkthrough.s5_Classes
 
 abstract class AbstractClass(var name: String) {
     def printName(): Unit // we need parenthesis since the return type is Unit

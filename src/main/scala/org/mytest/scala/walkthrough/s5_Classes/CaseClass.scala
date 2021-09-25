@@ -1,4 +1,4 @@
-package org.mytest.scala.walkthrough.S5_Classes
+package org.mytest.scala.walkthrough.s5_Classes
 
 // case classes need constructor parameters
 case class CaseClass(var a: String)

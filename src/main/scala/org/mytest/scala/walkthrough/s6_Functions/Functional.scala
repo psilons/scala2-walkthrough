@@ -1,4 +1,4 @@
-package org.mytest.scala.walkthrough.S6_Functions
+package org.mytest.scala.walkthrough.s6_Functions
 
 import scala.io.Source
 

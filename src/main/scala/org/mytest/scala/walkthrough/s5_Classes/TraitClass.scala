@@ -1,4 +1,4 @@
-package org.mytest.scala.walkthrough.S5_Classes
+package org.mytest.scala.walkthrough.s5_Classes
 
 // Trait can be viewed as a feature to be attached to other classes
 trait TraitClass

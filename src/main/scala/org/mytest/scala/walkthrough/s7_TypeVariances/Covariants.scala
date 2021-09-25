@@ -1,4 +1,4 @@
-package org.mytest.scala.walkthrough.S7_TypeVariances
+package org.mytest.scala.walkthrough.s7_TypeVariances
 
 // https://docs.scala-lang.org/tour/variances.html
 class Foo[+A] // A covariant class

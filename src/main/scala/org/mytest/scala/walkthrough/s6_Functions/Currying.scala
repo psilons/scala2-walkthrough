@@ -1,4 +1,4 @@
-package org.mytest.scala.walkthrough.S6_Functions
+package org.mytest.scala.walkthrough.s6_Functions
 
 // use case: fixing function signature
 // https://stackoverflow.com/questions/8063325/usefulness-as-in-practical-applications-of-currying-v-s-partial-application-i

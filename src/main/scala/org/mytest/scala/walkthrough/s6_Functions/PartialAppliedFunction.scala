@@ -1,4 +1,4 @@
-package org.mytest.scala.walkthrough.S6_Functions
+package org.mytest.scala.walkthrough.s6_Functions
 
 // This is different from partial functions
 object PartialAppliedFunction extends App
