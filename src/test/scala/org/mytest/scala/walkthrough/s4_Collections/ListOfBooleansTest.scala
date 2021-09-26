@@ -256,3 +256,17 @@ class ListOfBooleansTest extends AnyFlatSpec
 
     }
 }
+
+// how many elements we have to go through and how many we can save if we stop earlier
+//      and  or
+// TTT   3   1   for and, we need check all 3 elements; for or, 1st element is enough
+// TTF   3   1
+// TFT   2   1
+// TFF   2   1
+// FTT   1   2
+// FTF   1   2
+// FFT   1   3
+// FFF   1   3
+//
+// so we save 10 / 24 = 5 / 12, a little shy of half.
+// If generating true/false takes long time, it's worth to stop earlier.

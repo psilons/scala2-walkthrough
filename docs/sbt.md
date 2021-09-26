@@ -74,7 +74,10 @@ Use JVM_OPTS or SBT_OPTS to set environment. For example
 ```
 export SBT_OPTS="-XX:+CMSClassUnloadingEnabled -Xmx2G"
 ```
-
+Similarly, Maven has
+```
+export MAVEN_OPTS="-XX:+CMSClassUnloadingEnabled -Xmx2G"
+```
 
 Standard Scala tasks are listed in the sbt view, such as clean, compile, package.
 For uber jar, use assembly(https://github.com/sbt/sbt-assembly)
@@ -109,7 +112,7 @@ The full version of scala used is
 ```
 export full_version=$(sbt --error 'print scalaVersion' | tail -1 | xargs)
 echo $full_version
-2.13.6
+2.13.6F
 ```
 The binary version(major + minor) is
 ```
@@ -142,3 +145,12 @@ sbt dependencyTree
 [info]     +-org.slf4j:slf4j-api:1.7.30
 ```
 More can be found in its github: https://github.com/sbt/sbt-dependency-graph.
+
+### References
+https://www.scala-sbt.org/1.x/docs/Cross-Build.html
+
+To add branch name as classifier
+
+https://stackoverflow.com/questions/24901298/how-to-add-classifier-to-dependencies-and-publish-with-git-branch-name
+
+https://stackoverflow.com/questions/37144050/setting-up-sbt-to-publish-to-artifactory-based-on-git-branch

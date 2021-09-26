@@ -20,7 +20,7 @@ Desired/First Impression: not KISS
 Wait until we get Spark.
 
 Scala is a great and unique language because of its powerful type system. Spark and Kafka are
-examples of what it can do.
+examples of what it can do. DSL is another advantage.
 
 Scala3 syntax behaves closer to Python than Scala2([PS3E](#PS3E)). It's a great improvement.
 
@@ -145,3 +145,5 @@ FPiS1E: [Functional Programming in Scala](https://www.amazon.com/Functional-Prog
 https://baihuqian.github.io/tags/#Scala
 
 https://www.baeldung.com/scala/category/scala-basics
+
+https://www.handsonscala.com/table-of-contents.html

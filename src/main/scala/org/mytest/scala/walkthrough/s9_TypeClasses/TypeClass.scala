@@ -8,3 +8,8 @@ class TypeClass
 }
 
 // PS3E Page 101, abstract type member
+
+
+// This is very useful for readable code, otherwise we have to use variable name
+// to make it readable, such as userId2user
+// https://www.vlachjosef.com/tagged-types-introduction/
