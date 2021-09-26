@@ -6,3 +6,5 @@ class TypeClass
 {
 
 }
+
+// PS3E Page 101, abstract type member

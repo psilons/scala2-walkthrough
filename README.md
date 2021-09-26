@@ -6,9 +6,23 @@ Desired/First Impression: not KISS
   My LeetCode Python solutions are <= 20 lines mostly.
 - With so many APIs, other tools such as IntelliJ is easy to be broken. Less used flexibility
   has virtually no value but confusion. We need an optimized version.
-- Feel like it's in Python's 2010s, need more enterprise level tools and efficiency.
+- Feel like it's in Python's 2010s, need more solid enterprise level tools and code efficiency.
+  Spring is a good example. It's feature complete, fast coding, and well thought. Some tools can
+  do something, but missing other features. Some fix some problems, but break downstream
+  compositions. Some changes a lot on user API side over time and cause maintenance nightmares.
+  Building solid and durable tools requires a lot of industrial hands-on experience.
+- Some inheritance hierarchies are too deep, feel in the same 1990's Visual C++ hierarchy hell.
+  When I attended my first C++ course in the old AT&T, the first rule for inheritance I was told
+  is that never go beyond 3 levels, otherwise people could have a hard time to understand your
+  code. I benefit from this advice in my entire career. Sometimes, we have the freedom, but do we
+  want to get out of control?
 
 Wait until we get Spark.
+
+Scala is a great and unique language because of its powerful type system. Spark and Kafka are
+examples of what it can do.
+
+Scala3 syntax behaves closer to Python than Scala2([PS3E](#PS3E)). It's a great improvement.
 
 [Scala docs](https://docs.scala-lang.org/api/all.html)
 
@@ -18,13 +32,13 @@ IntelliJ has Scala WorkSheet and Scala REPL
 
 ## Minimal Requirements
 
-### sbt
+#### sbt
 [sbt Introduction](docs/sbt.md)
 
-### Unit Tests and Test Coverage
+#### Unit Tests and Test Coverage
 [Unit Tests and Test Coverage](docs/test-coverage.md)
 
-### Logging
+#### Logging
 https://github.com/lightbend/scala-logging is a wrapper around slf4j
 
 http://software.clapper.org/grizzled-slf4j/index.html is another wrapper around slf4j.
@@ -108,6 +122,18 @@ https://www.jetbrains.com/help/idea/dsm-analysis.html
 
 Images and links are from Amazon.
 
+<a name="PS3E">PS3E</a>: [Programming Scala](https://www.amazon.com/Programming-Scala-Scalability-Functional-Objects/dp/1492077895)
+
+![PS3E](docs/programming_scala.jpg)
+
+SFTI2E: [Scala for the Impatient](https://www.amazon.com/Scala-Impatient-2nd-Cay-Horstmann/dp/0134540565)
+
+![sfti](docs/scala_for_the_impatient_2E.jpg)
+
+SC1E: [Scala Cookbook](https://www.amazon.com/Scala-Cookbook-Object-Oriented-Functional-Programming/dp/1449339611)
+
+![sc](docs/scala_cookbook_1E.jpg)
+
 PiS4E: [Programming in Scala](https://www.amazon.com/Programming-Scala-Martin-Odersky/dp/098153161X) 
 
 ![pis4](docs/programming_in_scala_4E.jpg)
@@ -115,14 +141,6 @@ PiS4E: [Programming in Scala](https://www.amazon.com/Programming-Scala-Martin-Od
 FPiS1E: [Functional Programming in Scala](https://www.amazon.com/Functional-Programming-Scala-Paul-Chiusano/dp/1617290653)
 
 ![fpis](docs/functional_programming_in_scala_1E.jpg)
-
-SC1E: [Scala Cookbook](https://www.amazon.com/Scala-Cookbook-Object-Oriented-Functional-Programming/dp/1449339611)
-
-![sc](docs/scala_cookbook_1E.jpg)
-
-SFTI2E: [Scala for the Impatient](https://www.amazon.com/Scala-Impatient-2nd-Cay-Horstmann/dp/0134540565)
-
-![sfti](docs/scala_for_the_impatient_2E.jpg)
 
 https://baihuqian.github.io/tags/#Scala
 

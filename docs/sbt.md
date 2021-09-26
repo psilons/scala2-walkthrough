@@ -2,6 +2,19 @@
 
 sbt is the Scala build tool, similar to Maven for Java, makefile for C++.
 
+## How to do these?
+- Shared settings across projects. With the microservices trend, we de-centralize
+  services without parent-child relations. So project-module way sharing is not
+  available. Maven uploads pom.xml files that can be shared, sbt does not. Some
+  posts suggest plugins, but I think that's a stretch. Is there simpler way? We
+  care
+    - dependencies(versions)
+    - plugins(versions)
+    - properties  
+  
+  we want to share and override.
+
+
 ## Installation
 Download from: https://www.scala-sbt.org/index.html
 Unzip the zip file and add the path to the PATH variable.

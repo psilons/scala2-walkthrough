@@ -8,3 +8,5 @@ trait TraitClass
 
 // first extends, then with
 class MyClass extends TraitClass
+
+// sealed means we can only subclasses in this file.
