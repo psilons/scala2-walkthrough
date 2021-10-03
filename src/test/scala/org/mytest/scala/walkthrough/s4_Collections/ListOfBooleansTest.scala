@@ -4,6 +4,11 @@ import org.scalatest.flatspec.AnyFlatSpec
 
 class ListOfBooleansTest extends AnyFlatSpec
 {
+    "empty list test" should "work" in {
+        // This is scary, so check list empty first
+        assert(ListOfBooleans1.matchAll(List.empty))
+        assert(!ListOfBooleans1.matchAny(List.empty))
+    }
     val l1 = List(true, true, true)
     val l2 = List(true, true, false)
     val l3 = List(true, false, true)
@@ -253,7 +258,6 @@ class ListOfBooleansTest extends AnyFlatSpec
         ListOfBooleans5.matchAny(lastTrue)
         total = (System.nanoTime() - start) /10e3
         println(s"ListOfBooleans5.matchAny(lastTrue): ${total} μs")
-
     }
 }
 
