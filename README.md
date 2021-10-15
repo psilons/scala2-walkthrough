@@ -85,6 +85,9 @@ https://alexandreesl.com/2020/02/12/gatling-making-performance-tests-with-scala/
 
 https://scalac.io/blog/performance-testing/
 
+https://medium.com/mop-developers/parallel-computing-in-python-and-scala-37d3561b4c08
+
+
 ## UML and Class Diagrams
 There is no good tool currently. We need a tool to show all relations
 - classes
@@ -147,3 +150,11 @@ https://baihuqian.github.io/tags/#Scala
 https://www.baeldung.com/scala/category/scala-basics
 
 https://www.handsonscala.com/table-of-contents.html
+
+http://twitter.github.io/scala_school/
+
+http://twitter.github.io/effectivescala/
+
+https://github.com/lauris/awesome-scala
+
+https://typelevel.org/cats/
