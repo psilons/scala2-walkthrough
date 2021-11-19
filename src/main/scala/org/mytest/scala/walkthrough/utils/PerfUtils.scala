@@ -10,7 +10,7 @@ object PerfUtils
     def timeit[R](func: => R, durUnit: String = "ns"): R = {
         val timer = new Timer(durUnit)
         val result = func
-        print(timer.duration())
+        println("time: " + timer.duration())
         result
     }
 }

@@ -130,7 +130,7 @@ Images and links are from Amazon.
 ![PS3E](docs/programming_scala.jpg)
 
 SFTI2E: [Scala for the Impatient](https://www.amazon.com/Scala-Impatient-2nd-Cay-Horstmann/dp/0134540565)
-
+https://horstmann.com/scala/
 ![sfti](docs/scala_for_the_impatient_2E.jpg)
 
 SC1E: [Scala Cookbook](https://www.amazon.com/Scala-Cookbook-Object-Oriented-Functional-Programming/dp/1449339611)

@@ -24,4 +24,7 @@ object ListTest extends App
     println(b)
 
     // Option, Some, None, Either
+
+    val ints: List[String] = List("Cat", "Dog", "Tiger", "elephant")
+    println(ints.sortWith(_.length() > _.length()).take(3))
 }
