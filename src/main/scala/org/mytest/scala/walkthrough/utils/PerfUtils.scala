@@ -53,7 +53,7 @@ class Timer(durUnit: String = "ns", start: Long = System.nanoTime()) {
             case "sec" => dur.toDouble / 10e9
             case "ms" => dur.toDouble / 10e6
             case "us" => dur.toDouble / 10e3
-            case _ => dur
+            case _ => dur.toDouble
         }
 
         res

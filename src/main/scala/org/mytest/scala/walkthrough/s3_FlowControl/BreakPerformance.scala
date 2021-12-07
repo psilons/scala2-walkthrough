@@ -31,7 +31,7 @@ object BreakPerformance {
       val it = collection.iterator;
       var continue = true;
       while(continue) {
-        val v = it.next;
+        val v = it.next();
         count += v;
         if(v > half) continue = false;
       }
@@ -45,7 +45,7 @@ object BreakPerformance {
       breakable {
         collection.foreach(v => {
           count += v;
-          if(v > half) break;
+          if(v > half) break();
         });
       }
     }

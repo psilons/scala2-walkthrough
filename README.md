@@ -131,6 +131,7 @@ Images and links are from Amazon.
 
 SFTI2E: [Scala for the Impatient](https://www.amazon.com/Scala-Impatient-2nd-Cay-Horstmann/dp/0134540565)
 https://horstmann.com/scala/
+
 ![sfti](docs/scala_for_the_impatient_2E.jpg)
 
 SC1E: [Scala Cookbook](https://www.amazon.com/Scala-Cookbook-Object-Oriented-Functional-Programming/dp/1449339611)
@@ -158,3 +159,6 @@ http://twitter.github.io/effectivescala/
 https://github.com/lauris/awesome-scala
 
 https://typelevel.org/cats/
+
+symbolic operators: https://stackoverflow.com/questions/7888944/what-do-all-of-scalas-symbolic-operators-mean
+
