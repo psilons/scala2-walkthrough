@@ -17,8 +17,7 @@ libraryDependencies += "com.chuusai" %% "shapeless" % "2.3.7"
 libraryDependencies += "org.scala-lang" % "scala-compiler" % scalaVersion.value
 
 resolvers += "Twitter repo" at "https://maven.twttr.com/"
-libraryDependencies ++= Seq(
-    "com.twitter" % "util-eval" % "6.43.0"
-)
+libraryDependencies += "com.twitter" % "util-eval" % "6.5.0"
+
 // twitter needs this
 libraryDependencies += "org.scala-lang" % "scala-library" % scalaVersion.value

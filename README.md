@@ -162,3 +162,21 @@ https://typelevel.org/cats/
 
 symbolic operators: https://stackoverflow.com/questions/7888944/what-do-all-of-scalas-symbolic-operators-mean
 
+scala copy vs clone - copy while changing values
+
+https://stackoverflow.com/questions/8715562/how-to-make-this-first-not-null-result-function-more-elegant-concise/8716102
+
+https://books.underscore.io/shapeless-guide/shapeless-guide.html
+https://github.com/milessabin/shapeless
+
+https://www.baeldung.com/scala/lazy-val
+
+You need to convert the map to a Seq and mark it as a varargs element like this:
+
+ myFunction(p.toSeq: _*)
+
+https://dev.to/z2yjxfnrkb/foldleft-map-and-filter-in-scala-3l6e
+
+https://stackoverflow.com/questions/26501865/scala-why-foldleft-cant-work-for-an-concat-of-two-list
+
+https://www.researchgate.net/publication/336449888_Scala_implicits_are_everywhere_a_large-scale_study_of_the_use_of_Scala_implicits_in_the_wild
