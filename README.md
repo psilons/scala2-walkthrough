@@ -158,6 +158,8 @@ http://twitter.github.io/effectivescala/
 
 https://github.com/lauris/awesome-scala
 
+https://sparkbyexamples.com/
+
 https://typelevel.org/cats/
 
 symbolic operators: https://stackoverflow.com/questions/7888944/what-do-all-of-scalas-symbolic-operators-mean
